@@ -14,9 +14,9 @@ return(
         
            
            <div className="red">
-                
+                <a href={this.props.item.url}>
             <img className="d-block w-100" src={this.props.item.img} alt="First slide" />
-       
+                </a>
         
           </div>
           

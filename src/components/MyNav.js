@@ -25,8 +25,10 @@ function MyNav(props){
         <Container className="nav-container">
           
        <div className="pages-nav-container">
-       <Nav.Link className="white" as={Link} to="/" dir="rtl" lang="ar">الرئيسية</Nav.Link>
-        <Nav.Link  className="white" as={Link} to="/Shop" dir="rtl" lang="ar">تبرع</Nav.Link>
+       <Nav.Link className="white" as={Link} to="/" >الرئيسية</Nav.Link>
+        <Nav.Link  className="white" as={Link} to="/Shop" >تبرع</Nav.Link>
+        <Nav.Link className="white" as={Link} to="/" >من نحن</Nav.Link>
+        <Nav.Link  className="white" as={Link} to="/Shop" >مشاريعنا</Nav.Link>
        
        </div>
           <Navbar.Brand href="#home">Life</Navbar.Brand>

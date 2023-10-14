@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
 import ShopPageDesign from "../components/ShopPageDesign";
 
-import banner from "../Photos/afghanistan2.jpg"
+import banner from "../Photos/logo1.png"
 
 
 export default function Shop(props){
@@ -14,11 +14,11 @@ export default function Shop(props){
 
 return(
 <div className="my-shop-container  height-40">
-    <div className="shop-banner" dir="rtl" lang="ar">
+    <div className="shop-banner blue" dir="rtl" lang="ar">
     <img src={banner} alt="shop banner" className="shop-banner-img" dir="rtl" lang="ar"/>
     </div>
 <Container fluid="sm" className="">
-<Row xs={2} md={4} className="g-4 margin-5">
+<Row xs={2} md={3} className="g-3 margin-5">
 {/*ProductDesign page is rendered here*/}
 {props.shopProducts.map((product)=>{
 
@@ -34,7 +34,7 @@ return( <Col key={product.id}>
 {/*<Button variant="danger" className="reset-btn" onClick={this.props.reset}>Reset</Button>*/}
 </Container>
 <div className="all-products-btn-div">
-<Button variant="secondary" className="" as={Link} to="/" >Back Home</Button>
+<Button variant="secondary" className="" as={Link} to="/" >العودة للرئيسية</Button>
 </div>
 </div>
 

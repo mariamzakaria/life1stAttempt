@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../Photos/fifth1.jpg"
+/*import img1 from "../Photos/fifth1.jpg"
 import img2 from "../Photos/fifth2.jpg"
 import img3 from "../Photos/fifth3.jpg"
 import img4 from "../Photos/fifth4.jpg"
 import img5 from "../Photos/fifth5.jpg"
-import img6 from "../Photos/fifth6.jpg"
+import img6 from "../Photos/fifth6.jpg"*/
 import Card from 'react-bootstrap/Card';
 
 
@@ -16,7 +16,7 @@ return(
 
    
        <div className="my-row">
-        <Card.Img variant="top" src={img1} />
+       {/* <Card.Img variant="top" src={img1} />
        
         <Card.Img variant="top" src={img2} />
         </div>
@@ -31,7 +31,7 @@ return(
       <div  className="my-row">
         <Card.Img variant="top" src={img5} />
        
-        <Card.Img variant="top" src={img6} />
+        <Card.Img variant="top" src={img6} />*/}
        
         </div>
     

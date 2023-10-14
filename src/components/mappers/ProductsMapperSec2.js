@@ -23,9 +23,9 @@ return(
 </div>*/
 
     
-<div className="my-cart-container margin-5 height-40">
-<Container fluid="sm" className="sec2-container">
-<Row xs={2} md={4} className="g-4 margin-5">
+<div className="my-cart-container height-40">
+<Container fluid="sm" className="sec2-container" dir="rtl">
+<Row xs={2} md={4} className="g-4 margin-5" dir="rtl">
 {/*ProductDesign page is rendered here*/}
 {props.productsSection2.map((product)=>{
 
@@ -38,7 +38,7 @@ return( <Col key={product.id}>
 
 </Row>
 <div className="all-products-btn-div">
-<Button variant="outline-danger" className="all-products-btn" as={Link} to="/Shop" onClick={()=>props.decrease(this.props.product)} >All Products</Button>
+<Button variant="outline-danger" className="all-products-btn" as={Link} to="/Shop" onClick={()=>props.decrease(this.props.product)} >تعرف على المزيد</Button>
 </div>
 {/*<Button variant="danger" className="reset-btn" onClick={this.props.reset}>Reset</Button>*/}
 </Container>

@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
    /* justify-content: space-evenly;*/
-   justify-content: flex-start;
+   justify-content: center;
     align-items: center;
     height: 75rem;
     width: 96%;
@@ -49,7 +49,7 @@
 .pages-nav-container{
     display: flex;
     justify-content: space-between;
-    width: 8%;
+    width: 20%;
 }
 .nav-container{
     display: flex;
@@ -66,6 +66,7 @@
 }
 .all-products-btn{
     transform: rotate(90deg);
+    width: max-content;
 }
 .offers-container{
     display: flex;
@@ -236,6 +237,53 @@ display: none;
                 width: 100%;
             }
   }
- /* .carousel-container {
+  .carousel-container {
     direction: rtl;
-  }*/
+  }
+  .blue{
+    background-color:rgb(91,134,176);
+    
+}
+.top_background_image{
+    
+    width: 100%;
+    position: relative;
+    height: 106vh;
+    background-image: url(../Photos/water1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.promotional_phrases_section{
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    top: 12em;
+    left: 5em;
+   background-color: rgba(192,210,229, 0.73);
+   color: white;
+   font-size: 30px;
+   font-weight: 560;
+   display: flex;
+   justify-content: end;
+   padding-top: 20px;
+}
+.header_text_div{
+    border-left: dotted;
+    margin-left: 30px;
+    height: 115px;
+}
+.light_green_text{
+    color: rgb(91,134,176);;
+}
+.weight_900{
+    /*font-weight: 900;*/
+    font-size: 60px;
+    text-align: center;
+}
+.no_border{
+    border: none;
+}
+.transparent{
+    background: transparent;
+}
